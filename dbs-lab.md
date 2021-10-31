@@ -35,5 +35,7 @@ id INT AUTO_INCREMENT,
 | Select | SELECT * FROM users; |
 |  | SELECT first_name, last_name FROM users; | 
 | Where Clause | SELECT * FROM users WHERE location='Manipal'; |
-| Delete Row | DELETE FROM users WHERE location = 'London'; |
-| Update Row |  |
+| Delete Row | DELETE FROM users WHERE id = 6; |
+| Update Row | UPDATE users SET email = 'johnny@gmail.com' WHERE id = 2; |
+| New Column | ALTER TABLE users ADD age VARCHAR(3); |
+| Modify Column | ALTER TABLE users MODIFY COLUMN age INT(3); |
