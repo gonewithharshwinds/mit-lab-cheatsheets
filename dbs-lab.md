@@ -32,3 +32,8 @@ id INT AUTO_INCREMENT,
 | Show tables  | `SHOW TABLES;`  |
 |  Insert Row / Record | `INSERT INTO users (first_name, last_name, email, password, location, dept) values ('Harsh', 'Mehta', 'harsh.mehta2001@gmail.com', 'password','Manipal', 'IT');` |
 | Insert Multiple Rows / Records | `INSERT INTO users (first_name, last_name, email, password, location, dept) values ('Harsh', 'Mehta', 'harsh.mehta2001@gmail.com', 'password','Manipal', 'IT'),('John', 'Doe', 'john.doe@gmail.com', 'password','London', 'Placeholder');` |
+| Select | SELECT * FROM users; |
+|  | SELECT first_name, last_name FROM users; | 
+| Where Clause | SELECT * FROM users WHERE location='Manipal'; |
+| Delete Row | DELETE FROM users WHERE location = 'London'; |
+| Update Row |  |
