@@ -32,12 +32,22 @@ id INT AUTO_INCREMENT,
 | ------------- | ------------- |
 |  Delete/Drop Table | `DROP TABLE tablename;` |
 | Show tables  | `SHOW TABLES;`  |
-|  Insert Row / Record | `INSERT INTO users (first_name, last_name, email, password, location, dept) values ('Harsh', 'Mehta', 'harsh.mehta2001@gmail.com', 'password','Manipal', 'IT');` |
-| Insert Multiple Rows / Records | `INSERT INTO users (first_name, last_name, email, password, location, dept) values ('Harsh', 'Mehta', 'harsh.mehta2001@gmail.com', 'password','Manipal', 'IT'),('John', 'Doe', 'john.doe@gmail.com', 'password','London', 'Placeholder');` |
 | Select | SELECT * FROM users; |
 |  | SELECT first_name, last_name FROM users; | 
 | Where Clause | SELECT * FROM users WHERE location='Manipal'; |
+
+## 3. ROWS:
+
+| Use   | Command |
+| ------------- | ------------- |
+|  Insert Row / Record | `INSERT INTO users (first_name, last_name, email, password, location, dept) values ('Harsh', 'Mehta', 'harsh.mehta2001@gmail.com', 'password','Manipal', 'IT');` |
+| Insert Multiple Rows / Records | `INSERT INTO users (first_name, last_name, email, password, location, dept) values ('Harsh', 'Mehta', 'harsh.mehta2001@gmail.com', 'password','Manipal', 'IT'),('John', 'Doe', 'john.doe@gmail.com', 'password','London', 'Placeholder');` |
 | Delete Row | DELETE FROM users WHERE id = 6; |
 | Update Row | UPDATE users SET email = 'johnny@gmail.com' WHERE id = 2; |
+
+## 4. COLUMNS:
+
+| Use   | Command |
+| ------------- | ------------- |
 | New Column | ALTER TABLE users ADD age VARCHAR(3); |
 | Modify Column | ALTER TABLE users MODIFY COLUMN age INT(3); |
