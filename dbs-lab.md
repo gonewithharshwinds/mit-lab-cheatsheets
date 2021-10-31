@@ -1,6 +1,8 @@
 
 # **DBS Lab (sem-5)**
 
+MySQL is an open-source relational database management system.
+(Oracle SQL plus is used in the lab.)
 
 ## 1. BASIC-1 :
 
